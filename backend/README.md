@@ -6,4 +6,4 @@
 ### มาเริ่มติดตั้งกันเลย !!!
 * คลิกลิงต์เพิ่อโหลด
 
-![vertical](/images/1.png)
+![vertical](//backend/images/1.png)
