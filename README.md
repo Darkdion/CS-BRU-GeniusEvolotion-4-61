@@ -1,4 +1,4 @@
-![vertical](/backend/images/1.png)
+![vertical](/backend/images/index.jpg)
 
 # วันที่ 3 กุมภาพันธ์ 2561
 ------------------
