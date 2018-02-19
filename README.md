@@ -10,8 +10,9 @@
 ------------------
 - learn angular Js 1 เบื้องต้น <a href="https://github.com/Darkdion/LearnBru-61/tree/master/learn-angular">คลิกลิงค์ที่นี้...</a>
 - learn angular Lab (ร้านเกมส์ออน์ไลน์) <a href="https://github.com/Darkdion/LearnBru-61/tree/master/learn-angular/Lab">คลิกลิงค์ที่นี้...</a>
-- ดาวน์โหลดสไลและไฟล์Lab แบบเต็ม <a href="https://drive.google.com/drive/folders/16bq6dB_iGGhJ7NK6VLJdLeBu7-RpSY8T?usp=sharing">คลิกลิงค์ที่นี้...</a
+- ดาวน์โหลดสไลและไฟล์Lab แบบเต็ม <a href="https://drive.google.com/drive/folders/16bq6dB_iGGhJ7NK6VLJdLeBu7-RpSY8T?usp=sharing">คลิกลิงค์ที่นี้...</a>
 
 ==================================================================
 
-## ส่วนการติดตั้งโปรแกรมหลังบ้านและไฟล์ดาวน์โหลด <a href="https://github.com/Darkdion/LearnBru-61/tree/master/learn-angular/Lab">คลิกลิงค์ที่นี้...</a>
+# ขั้นติดตั้งโปรแกรมหลังบ้านและดาวน์โหลดไฟล์  
+  - ไปกันเลย !!! <a href="https://drive.google.com/drive/folders/16bq6dB_iGGhJ7NK6VLJdLeBu7-RpSY8T?usp=sharing">คลิกลิงค์ที่นี้...</a>
