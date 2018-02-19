@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="GamesTypeModule">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ng</title>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="./app.js"></script>
+    <!-- <div ng-controller="InsertGameTypeCtr">
+        {{InsertGameType}}
+    </div>
+    {{InsertGameTypeRoot}}
+    <div ng-controller="DeleteGameTypeCtr">
+        {{DeleteGameType}}
+    </div>
+    {{DeleteGameTypeRoot}}
+
+    <div ng-controller="modelExCtr">
+        <h1>number1= {{number1}} </h1>
+        <h1>number2= {{number2}} </h1>
+        <input type="number" name="" ng-model="number1" id="">
+        <input type="number" name="" ng-model="number2" id="">
+        <h2>เท่ากับ = {{total}}</h2>
+        <button type="button" class="btn btn-default" ng-click="sum()">เท่ากับ</button>
+    </div> -->
+    <div ng-controller="GameDetails">
+        {{DataDetails}}
+        <div ng-repeat="p in DataDetails">
+            <h1>{{p.id}} - {{p.name}} - {{data.lastname}}</h1>
+        </div>
+        เลือก {{select}} <br>
+        <select ng-model="select" style="width:50%"> 
+            <option ng-repeat="model in DataDetails " value="{{model.id}}">{{model.name}} </option>
+        </select>
+
+        <h2>select 2</h2>
+        เลือก {{select2}} <br>
+        <select ng-model="select2" ng-options="data.id as data.name for data in DataDetails"></select>
+
+        <h2>select 3</h2>
+        เลือก {{select3}} <br>
+        <select ng-options="dds.id as dds.name for dds in DataDetails" ng-model="select3"></select>
+
+        <br> เรียกแสดงตาราง <input type="checkbox" name="" id="" ng-model="showTable"> {{showTable}}
+
+        <br>
+
+        <button ng-click="Open()"> เปิด</button>
+        <button ng-click="Close()"> ปิด</button>
+        <div ng-show="showTable == 'A' ">
+            <table class="" border="1" width="50%">
+                <thead>
+                    <tr>
+                        <th>รหัสสมาชิก</th>
+                        <th>ชื่อ</th>
+                        <th>นามสกุล</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="data in DataDetails">
+                        <td>{{data.id}}</td>
+                        <td>{{data.name}}</td>
+                        <td>{{data.lastname}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <h1> {{1000 | currency:''}}</h1>
+
+    </div>
+
+
+</body>
+
+</html>
